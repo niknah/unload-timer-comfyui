@@ -1,0 +1,14 @@
+{
+	"type": "module",
+	"scripts": {
+		"eslint": "eslint js/*.js",
+		"pyflakes": "bash -c 'pyflakes *.py'",
+		"lint": "npm run eslint & npm run pyflakes"
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+		"@eslint/js": ">=10.0.1",
+		"eslint": ">=10.2.0"
+	}
+}
