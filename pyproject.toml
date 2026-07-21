@@ -1,6 +1,6 @@
 [project]
 name = "unload-timer-comfyui"
-description = "Unload VRAM timer"
+description = "Frees VRAM memory when you are idle.  Like the way ollama works."
 version = "1.0.0"
 license = {text = "MIT License"}
 
