@@ -12,6 +12,7 @@ jobs:
     name: Publish Custom Node to registry
     runs-on: ubuntu-latest
     steps:
+        using:  node24
       - name: Check out code
         uses: actions/checkout@v4
       - name: Publish Custom Node
