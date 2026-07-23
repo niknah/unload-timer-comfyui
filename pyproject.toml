@@ -11,4 +11,4 @@ Repository = "https://github.com/niknah/unload-timer-comfyui"
 [tool.comfy]
 PublisherId = "niknah"
 DisplayName = "Unload VRAM timer"
-Icon = ""
+Icon = "https://raw.githubusercontent.com/niknah/unload-timer-comfyui/refs/heads/main/UnloadTimer_Icon.webp"
