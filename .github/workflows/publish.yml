@@ -13,11 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
-        uses: actions/checkout@v4
-        with:
-          node-version: '24'
+        uses: actions/checkout@v6
       - name: Publish Custom Node
         uses: Comfy-Org/publish-node-action@main
         with:
-          node-version: '24'
           personal_access_token: ${{ secrets.REGISTRY_ACCESS_TOKEN }} ## Add your own personal access token to your Github Repository secrets and reference it here.
